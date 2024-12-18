@@ -18,7 +18,7 @@ async function getData(){
 /**
  * Main function to draw the table with character data.
  */
-async function loaddata() {
+async function loadData() {
     const array = await getData();  // Fetch the data from the API
 
     // Sort the array of characters by their 'id' in ascending order
